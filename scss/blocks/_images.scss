@@ -1,0 +1,41 @@
+.images {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin-top: 20px;
+
+    &__wrap-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    &__item {
+        width: 280px;
+        height: 180px;
+
+    }
+
+    &__picture {
+        width: 100%;
+        height: 100%;
+        border-radius: 20px;
+        object-fit: cover;
+
+    }
+
+    &__name {
+        width: 200px;
+        text-align: center;
+        font-family: $mainFont;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 21px;
+        text-align: center;
+        margin-top: 12px;
+        color: #000000;
+
+    }
+}
